@@ -1,0 +1,728 @@
+/* Seletor Universal */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 25px;
+}
+/* Estrutura Corporal da Pagina */
+#Conteudo{
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+
+/* Principal */
+#Principal_Titulo{
+	width: 50%;
+	height: auto;
+	background-color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+}
+#Principal_Image{
+	width: 50%;
+	height: auto;
+	background-color: #FFFFFF;
+	display: inline-block;
+}
+
+/* Formatando Texto Principal */
+#Principal_Titulo h1{
+	color: #4051E1;
+	font-size: 68.6px;
+	font-family: "Paytone One Regular", sans-serif, serif;
+	margin-top: 50%;
+	font-weight: bold;
+}	
+#Principal_Titulo text{
+	border: 0px solid black;
+	border-radius: 80px;
+	font-size: 1em;
+	background-color: #DBDD80;
+	margin: 25px auto;
+	padding: 15px;
+	width: 25%;
+	font-family: "Paytone One Regular", sans-serif, serif;
+	display: block;
+	box-shadow: 6px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Formatando Imagem Principal */
+#Principal_Image img{
+	margin: 25% 15%;
+}
+
+/* Justificativa */
+.pag_just{
+	width: 100%;
+	background-color: #4051E1;
+	padding: 15px;
+}
+.pag_just p{
+	font-size: 2em;
+	color: #F7F7F9;
+	font-family: "Paytone One Regular", sans-serif, serif;
+	font-weight: bold;
+	text-align: right;
+	margin: 5% 10%;
+}
+.pag_just h1{
+	font-size: 3em;
+	color: #F7F7F9;
+	font-family: "Paytone One Regular", sans-serif, serif;
+	font-weight: bold;
+	text-align: left;
+}
+.pag_just img{
+	float: left;
+}
+#imagem_just{
+	float: right;
+}
+#clear{
+	clear: both;
+}
+
+/* Pagina Metodologia */
+#pag_metod{
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	font-size: 2em;
+	color: #494F56;
+	font-family: "Paytone One Regular", sans-serif, serif;	
+}	
+#pag_box_metod{
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 70px;
+}
+.caixa_metod{
+	width: 25%;
+	height: 400px;
+	float: right;
+	margin: 0 4%;
+	box-shadow: 6px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	font-family: "Paytone One Regular", sans-serif, serif;
+}
+.caixa_metod h3{
+	padding: 15px;
+	color: #4051E1;
+}	
+.box_image{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+.box_image>img{
+	width: 150px;
+	height: 150px;
+}
+
+/* Pagina de Pesquisa */
+#pag_pesq_box{
+	width: 100%;
+	padding: 15px;
+	margin: auto;
+}
+#pag_pesq{
+	width: 45%;
+	padding: 25px;
+	text-align: left;
+	float: left;	
+}
+#pag_pesq>h1{
+	font-size: 3em;
+	font-family: "Paytone One Regular", sans-serif, serif;
+	color: #494F56;
+	padding: 25px;
+}
+#pag_pesq span{
+	color: #4051E1;
+}
+#pag_pesq_image{
+	width: 50%;
+	float: right;
+	padding: 15px;	
+}
+#pag_pesq_image>img{
+	width: 650px;
+}
+
+/* Pagina de Membro */
+#pag_membro{
+	width: 100%;
+	background-color: #4051E1;	
+}
+#pag_membro_cabec{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	font-family: "Paytone One Regular", sans-serif, serif;
+	font-weight: bold;
+}
+#pag_membro_cabec>h1{
+	padding: 35px;
+}
+#pag_membro_cont{
+	width: 100%;
+	padding: 15px;
+}
+.caixa_membro{
+	width: 25%;
+	height: 400px;
+	float: right;
+	margin: 0 4%;
+	box-shadow: 6px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	font-family: "Paytone One Regular", sans-serif, serif;	
+	border-radius: 80px;
+	background-color: white;
+}
+.caixa_membro h4{
+	padding: 15px;
+}
+.box_image_2{
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+.box_image_2>img{
+	width: 250px;
+	height: 250px;
+}
+
+/* RodaPe */
+#rodape{
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	font-size: 1em;
+	font-weight: bold;
+}
+#rodape>h3{
+	padding: 25px;
+}
+/* Responsivo */
+
+/* Dispositivos Super Pequenos */
+@media screen and (min-width: 240px) and (max-width: 279px){
+	body{
+		font-size: 8px;
+	}
+	#Conteudo{
+		display: block;	
+	}
+	#Principal_Titulo{
+		display: block;
+		width: 100%;			
+	}
+	#Principal_Titulo h1{
+		font-size: 4em;
+	}		
+	#Principal_Image{
+		width: 100%;
+		display: block;	
+	}
+	#Conteudo{
+		width: 100%;
+		display: block;
+	}
+	#Principal_Image img{
+		width: 200px;
+	}	
+	.pag_just img{
+		width: 230px;
+		margin: 15% 0%;		
+	}
+	#imagem_just{
+		width: 230px;
+		margin: 15% 0%;			
+	}
+	.caixa_metod{
+		float: none;
+		margin: 20px auto;
+		width: 90%;
+	}
+	.box_image{
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+	.box_image>img{
+		width: 100px;
+		height: 100px;
+	}	
+	.caixa_metod h3{
+		font-size: 3em;
+	}	
+	#pag_pesq_box{
+		margin: auto;
+	}
+	#pag_pesq{
+		float: none;
+		width: 90%;
+	}
+	#pag_pesq span{
+		color: #4051E1;
+	}
+	#pag_pesq_image{
+		width: 100%;
+	}
+	#pag_pesq_image>img{
+		width: 180px;
+	}	
+	#pag_membro{
+		width: 100%;
+	}
+	#pag_membro_cont{
+		width: 100%;
+		padding: 15px;
+	}
+	.caixa_membro{
+		width: 80%;
+		height: 250px;
+		float: none;
+		margin: 30px auto;
+	}
+	.caixa_membro h4{
+		padding: 15px;
+		font-size: 2em;
+	}
+	.box_image_2{
+		width: 100px;
+		height: 100px;
+	}
+	.box_image_2>img{
+		width: 100px;
+		height: 100px;
+	}			
+}
+
+/* Dispositivos Pequenos */
+@media screen and (min-width: 280px) and (max-width: 380px){
+	body{
+		font-size: 12px;
+	}
+	#Conteudo{
+		display: block;	
+	}
+	#Principal_Titulo{
+		display: block;
+		width: 100%;			
+	}
+	#Principal_Titulo h1{
+		font-size: 4em;
+	}		
+	#Principal_Image{
+		width: 100%;
+		display: block;	
+	}
+	#Conteudo{
+		width: 100%;
+		display: block;
+	}
+	#Principal_Image img{
+		width: 270px;
+	}	
+	.pag_just img{
+		width: 280px;
+		margin: 15% 0%;		
+	}
+	#imagem_just{
+		width: 280px;
+		margin: 15% 0%;			
+	}
+	#pag_image{
+		width: 100%;		
+		float: none;
+		margin: auto;			
+	}
+	#pag_image img{
+		width: 250px;
+		margin: auto;
+	}	
+	.caixa_metod{
+		float: none;
+		margin: 20px auto;
+		width: 90%;
+	}
+	.caixa_metod h3{;
+		font-size: 2em;
+	}	
+	#pag_pesq_box{
+		margin: auto;
+	}
+	#pag_pesq{
+		float: none;
+		width: 90%;
+	}
+	#pag_pesq span{
+		color: #4051E1;
+	}
+	#pag_pesq_image{
+		width: 100%;
+	}
+	#pag_pesq_image>img{
+		width: 270px;
+	}		
+	#pag_membro_cabec{
+		font-size: 2em;;
+	}
+	#pag_membro_cabec>h1{
+		padding: 35px;
+	}
+	#pag_membro_cont{
+		width: 100%;
+		padding: 15px;
+	}
+	.caixa_membro{
+		width: 80%;
+		height: 300px;
+		float: none;
+		margin: 30px auto;
+	}
+	.caixa_membro h4{
+		padding: 15px;
+		font-size: 2em;
+	}
+	.box_image_2{
+		width: 100px;
+		height: 100px;
+	}
+	.box_image_2>img{
+		width: 100px;
+		height: 100px;
+	}
+}
+
+/* Dispositivos Padrões  */
+@media screen and (min-width: 381px) and (max-width: 480px){
+	body{
+		font-size: 10px;
+	}
+	#Conteudo{
+		display: block;	
+	}
+	#Principal_Titulo{
+		display: block;
+		width: 100%;			
+	}
+	#Principal_Titulo h1{
+		font-size: 4em;
+	}		
+	#Principal_Image{
+		width: 100%;
+		display: block;	
+	}
+	#Conteudo{
+		width: 100%;
+		display: block;
+	}
+	#Principal_Image img{
+		width: 270px;
+	}	
+	.pag_just img{
+		width: 401px;
+		margin: 15% 0%;		
+	}
+	#imagem_just{
+		width: 401px;
+		margin: 15% 0%;			
+	}	
+	#pag_obj{
+		width: 100%;
+		margin: auto;
+	}
+	#pag_image{
+		width: 100%;		
+		float: none;
+		margin: auto;			
+	}
+	#pag_image img{
+		width: 250px;
+		margin: auto;
+	}
+	.caixa_metod{
+		float: none;
+		margin: 20px auto;
+		width: 90%;
+	}
+	.caixa_metod h3{
+		font-size: 2em;
+	}	
+	#pag_pesq_box{
+		margin: auto;
+	}
+	#pag_pesq{
+		float: none;
+		width: 90%;
+	}
+	#pag_pesq span{
+		color: #4051E1;
+	}
+	#pag_pesq_image{
+		width: 100%;
+	}
+	#pag_pesq_image>img{
+		width: 280px;
+	}
+	#pag_membro_cabec{
+		font-size: 2em;
+	}
+	#pag_membro_cont{
+		width: 100%;
+		padding: 15px;
+	}
+	.caixa_membro{
+		width: 80%;
+		height: 300px;
+		float: none;
+		margin: 30px auto;
+	}
+	.caixa_membro h4{
+		padding: 15px;
+		font-size: 2em;
+	}
+	.box_image_2{
+		width: 150px;
+		height: 150px;
+	}
+	.box_image_2>img{
+		width: 150px;
+		height: 150px;
+	}
+
+}
+
+/* Dispositivos SmartPhones Grandes  */
+@media screen and (min-width: 481px) and (max-width: 600px){
+	body{
+		font-size: 15px;
+	}
+	#Conteudo{
+		display: block;	
+	}
+	#Principal_Titulo{
+		display: block;
+		width: 100%;			
+	}
+	#Principal_Titulo h1{
+		font-size: 4em;
+	}		
+	#Principal_Image{
+		width: 100%;
+		display: block;	
+	}
+	#Conteudo{
+		width: 100%;
+		display: block;
+	}
+	#Principal_Image img{
+		width: 370px;
+	}	
+	.pag_just img{
+		width: 401px;
+		margin: 15% 0%;		
+	}
+	#imagem_just{
+		width: 401px;
+		margin: 15% 0%;			
+	}	
+	#pag_membro_cabec{
+		font-size: 2em;;
+	}
+	#pag_membro_cabec>h1{
+		padding: 35px;
+	}
+	#pag_membro_cont{
+		width: 100%;
+		padding: 15px;
+	}
+	.caixa_membro{
+		width: 80%;
+		height: 300px;
+		float: none;
+		margin: 30px auto;
+	}
+	.caixa_membro h4{
+		padding: 15px;
+		font-size: 2em;
+	}
+	.box_image_2{
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+	.box_image_2>img{
+		width: 100px;
+		height: 100px;
+	}				
+}
+
+/* Dispositivos Tables, Outbooks e NetBooks */
+@media screen and (min-width: 601px) and (max-width: 800px){
+	body{
+		font-size: 15px;
+	}
+	#Conteudo{
+		display: block;	
+	}
+	#Principal_Titulo{
+		display: block;
+		width: 100%;			
+	}
+	#Principal_Titulo h1{
+		font-size: 4em;
+	}		
+	#Principal_Image{
+		width: 100%;
+		display: block;	
+	}
+	#Conteudo{
+		width: 100%;
+		display: block;
+	}
+	#Principal_Image img{
+		width: 470px;
+	}	
+	.pag_just img{
+		width: 401px;
+		margin: 15% 0%;		
+	}
+	#imagem_just{
+		width: 401px;
+		margin: 15% 0%;			
+	}	
+	.caixa_metod{
+		float: none;
+		margin: 20px auto;
+		width: 90%;
+	}
+	.caixa_metod h3{;
+		font-size: 2em;
+	}	
+	#pag_pesq_box{
+		margin: auto;
+	}
+	#pag_pesq{
+		float: none;
+		width: 90%;
+	}
+	#pag_pesq span{
+		color: #4051E1;
+	}
+	#pag_pesq_image{
+		width: 100%;
+	}
+	#pag_pesq_image>img{
+		width: 400px;
+	}	
+	#pag_membro_cabec{
+		font-size: 2em;
+	}
+	#pag_membro_cont{
+		width: 100%;
+		padding: 15px;
+	}
+	.caixa_membro{
+		width: 80%;
+		height: 300px;
+		float: none;
+		margin: 30px auto;
+	}
+	.caixa_membro h4{
+		padding: 15px;
+		font-size: 2em;
+	}
+	.box_image_2{
+		width: 150px;
+		height: 150px;
+	}
+	.box_image_2>img{
+		width: 150px;
+		height: 150px;
+	}					
+}
+
+/* Dispositivos Telas Hd */
+@media screen and (min-width: 801px) and (max-width: 1024px){
+	#Conteudo{
+		display: block;	
+	}
+	#Principal_Titulo{
+		display: block;
+		width: 100%;			
+	}
+	#Principal_Titulo h1{
+		font-size: 4em;
+	}		
+	#Principal_Image{
+		width: 100%;
+		display: block;	
+	}
+	#Conteudo{
+		width: 100%;
+		display: block;
+	}
+	#Principal_Image img{
+		width: 700px;
+	}	
+	.pag_just img{
+		width: 401px;
+		margin: 15% 0%;		
+	}
+	#imagem_just{
+		width: 401px;
+		margin: 15% 0%;			
+	}
+	.caixa_metod h3{;
+		font-size: 2em;
+	}	
+	#pag_pesq_box{
+		margin: auto;
+	}
+	#pag_pesq{
+		float: none;
+		width: 90%;
+	}
+	#pag_pesq span{
+		color: #4051E1;
+	}
+	#pag_pesq_image{
+		width: 100%;
+	}
+	#pag_pesq_image>img{
+		width: 650px;
+	}
+		#pag_membro_cabec{
+		font-size: 2em;
+	}
+	#pag_membro_cont{
+		width: 100%;
+		padding: 15px;
+	}
+	.caixa_membro{
+		width: 80%;
+		height: 300px;
+		float: none;
+		margin: 30px auto;
+	}
+	.caixa_membro h4{
+		padding: 15px;
+		font-size: 2em;
+	}
+	.box_image_2{
+		width: 140px;
+		height: 140px;
+	}
+	.box_image_2>img{
+		width: 140px;
+		height: 140px;
+	}				
+}
